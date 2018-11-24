@@ -12,7 +12,6 @@ module.exports = class {
 	}
 
 	completeJSONVariable(json) {
-		console.log(json);
 		// Parse through the request. Based on what it is, we will serve a calculation and add it to the JSON.
 		switch(json.request) {
 			case "celcius":
